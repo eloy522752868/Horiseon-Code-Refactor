@@ -1,7 +1,7 @@
 # Horiseon-Code-Refactor
 
 ## Description
-This is my very first project the we need make change to site for Horiseon Refactor.
+This is my very first project I needed to change and comment for Horiseon Refactor.
 
 
 ![Portfolio Site](./assets/images/HorieonSite.jpg)
