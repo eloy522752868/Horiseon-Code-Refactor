@@ -5,7 +5,7 @@
     margin: 0;
 }
 /* Elements Selectors */
-/*Note:Added header,nav to use these elements instead of classes*/
+    /* Note:Added header,nav to use these elements instead of classes */
 
 body {
     background-color: #d9dcd6;
@@ -19,7 +19,6 @@ header {
 }
 
 footer{
-
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,7 +26,6 @@ footer{
 }
 
 footer h2 {
-
     font-size: 20px;
 }
 
@@ -36,9 +34,7 @@ h1{
     font-size: 48px;
 }
 
-.seo {
-    color: #d9dcd6;
-}
+
 
  nav {
     padding-top: 15px;
@@ -67,7 +63,11 @@ p {
 }
 
 /* Class Selectors */
-/*Note:Cleaned up redundant class and consolidated were I thought I could..*/
+    /* Note:Cleaned up redundant class and consolidated were I thought I could. */
+
+.seo {
+    color: #d9dcd6;
+}
 .hero {
     height: 800px;
     width: 100%;
@@ -104,23 +104,23 @@ p {
     background-color: #2589bd;
 }
 
-/*Note:consolidated, benefit-lead, .benefit-brand and benefit-cost */
+    /* Note:consolidated, benefit-lead, .benefit-brand and benefit-cost */
 .benefit-lead, .benefit-brand,.benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Note:consolidated, benefit-lead, .benefit-brand and benefit-cost h3*/
+    /* Note:consolidated, benefit-lead, .benefit-brand and benefit-cost h3 */
 .benefit-lead,.benefit-brand , .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*Note:consolidated, benefit-lead img, .benefit-brand img and .benefit-cost img */
+    /* Note:consolidated, benefit-lead img, .benefit-brand img and .benefit-cost img */
 .benefit-lead img , .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*Note:consolidated, .search-engine-optimization, .online-reputation-management and .social-media-marketing*/
+    /* Note:consolidated, .search-engine-optimization, .online-reputation-management and .social-media-marketing */
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -130,27 +130,12 @@ p {
     color: #ffffff;
 }
 
-/*Note:consolidated, .search-engine-optimization img , .online-reputation-management img and .social-media-marketing img*/
+    /* Note:consolidated, .search-engine-optimization img , .online-reputation-management img and .social-media-marketing img */
 .search-engine-optimization img ,.online-reputation-management img,.social-media-marketing img {
     max-height: 200px;
 }
-/*Note:consolidated, .search-engine-optimization , .online-reputation-management and .social-media-marketing h2*/
+    /* Note:consolidated, .search-engine-optimization , .online-reputation-management and .social-media-marketing h2 */
 .search-engine-optimization,.online-reputation-management, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Removed this class  as element footer
-*****
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
-*****
- */
