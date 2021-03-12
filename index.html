@@ -11,14 +11,15 @@
 <body>
 
     <!--Changed div class to  header and add nav. Thinking of changing  the header to not have a class header should work without it-->
-    <header class="header">
+    <header>
       <!-- Headers -->
+      <!--Did not need the class do ref on css to header directly-->
       <h1>Hori<span class="seo">seo</span>n</h1>
       <!--Change div to nav for better semantics-->
       <nav>
         <ul>
             <li>
-                <a href="#online-reputation-management">Search Engine Optimization</a>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
             </li>
             <li>
                 <a href="#online-reputation-management">Online Reputation Management</a>
@@ -33,7 +34,7 @@
 <!--Change div to section for better semantics-->
     <section class="hero"> </section>
     <section class="content">
-        <section class="search-engine-optimization">
+        <section id= "search-engine-optimization" class="search-engine-optimization">
             <!--Added alt tag to img -->
             <img src="./assets/images/search-engine-optimization.jpg"  alt="Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -84,7 +85,9 @@
             </p>
         </section>
     </section>
-    <footer class="footer">
+    
+<!--Change div to footer for better semantics. Did not need the class do ref on css to footer directly-->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
